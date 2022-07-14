@@ -1,5 +1,5 @@
 
-# TruncatingDatabreach V2
+# TruncatingDataBreach V2
 
 The New Version written in [vlang](https://vlang.io/)
 
