@@ -47,7 +47,9 @@ if params.len == 1 {
 	println("All finished, check " + user_file_path + " and " + pass_file_path)
 
 }else{
-	println("a paramter is missing, you need -f, -o and -s")
+	println("a paramter is missing, you need -f, -p, -u and -s")
 	println("use -h for an example")
 }
+
+
 
