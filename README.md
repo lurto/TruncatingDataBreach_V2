@@ -51,6 +51,7 @@ man@hotmail:;123456789
 
 ## To Do
 - Add comments to code
+- delete file content if rerun
 
 ## Author
 - [@lurto](https://www.github.com/lurto)
