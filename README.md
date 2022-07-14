@@ -49,5 +49,8 @@ man@hotmail:;123456789
 - In the first lines of the scipt you have to define the input file path, the two output file paths and the separators
 - That's all. 
 
+## To Do
+- Add comments to code
+
 ## Author
 - [@lurto](https://www.github.com/lurto)
