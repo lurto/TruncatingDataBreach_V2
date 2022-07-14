@@ -11,6 +11,8 @@ Truncate a data breach into two files.
 This can then be used as two wordlists for a brute-force attack
 
 ## Usage
+
+manual
 ```bash
 	-h for help
 	-f for input file
