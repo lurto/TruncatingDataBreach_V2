@@ -23,7 +23,7 @@ This can then be used as two wordlists for a brute-force attack
 ```
 
 
-Example : this will be put into two files
+Input example (this will be put into two files) : 
 ```bash
 hello@gmail.com:;Pa$$w0rd
 hi@outlook.com:;Pass
