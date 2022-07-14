@@ -5,7 +5,7 @@ The New Version written in [vlang](https://vlang.io/)
 
 Truncate a data breach into two files.
 
-### 1 000 000 lines in less than a second
+### 1 000 000 lines in 2 seconds (i5-6500)
 
 This can then be used as two wordlists for a brute-force attack
 
