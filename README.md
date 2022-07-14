@@ -1,2 +1,53 @@
-# TruncatingDatabreach_V2
-A
+
+# TruncatingDatabreach V2
+
+The New Version written in [vlang](https://vlang.io/)
+
+Truncate a data breach into two files.
+
+### 1 000 000 lines in less than a second
+
+This can then be used as two wordlists for a brute-force attack
+
+Example : this will be put into two files
+```bash
+hello@gmail.com:;Pa$$w0rd
+hi@outlook.com:;Pass
+man@hotmail:;123456789
+woman@icloud.com:;rockyou
+hello@gmail.com:;Pa$$w0rd
+hi@outlook.com:;Pass
+man@hotmail:;123456789
+woman@icloud.com:;rockyou
+hello@gmail.com:;Pa$$w0rd
+hi@outlook.com:;Pass
+man@hotmail:;123456789
+woman@icloud.com:;rockyou
+hello@gmail.com:;Pa$$w0rd
+hi@outlook.com:;Pass
+man@hotmail:;123456789
+woman@icloud.com:;rockyou
+hello@gmail.com:;Pa$$w0rd
+hi@outlook.com:;Pass
+man@hotmail:;123456789
+woman@icloud.com:;rockyou
+hello@gmail.com:;Pa$$w0rd
+hi@outlook.com:;Pass
+man@hotmail:;123456789
+woman@icloud.com:;rockyou
+hello@gmail.com:;Pa$$w0rd
+hi@outlook.com:;Pass
+man@hotmail:;123456789
+woman@icloud.com:;rockyou
+hello@gmail.com:;Pa$$w0rd
+hi@outlook.com:;Pass
+man@hotmail:;123456789
+```
+
+## How it works
+- Written in vlanf
+- In the first lines of the scipt you have to define the input file path, the two output file paths and the separators
+- That's all. 
+
+## Author
+- [@lurto](https://www.github.com/lurto)
