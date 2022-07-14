@@ -45,7 +45,7 @@ man@hotmail:;123456789
 ```
 
 ## How it works
-- Written in vlanf
+- Written in vlang
 - In the first lines of the scipt you have to define the input file path, the two output file paths and the separators
 - That's all. 
 
