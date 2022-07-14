@@ -10,6 +10,19 @@ Truncate a data breach into two files.
 
 This can then be used as two wordlists for a brute-force attack
 
+## Usage
+```bash
+	-h for help
+	-f for input file
+	-p for password output file
+	-u for user output file
+	-s "" for the separator
+
+	example :
+	TruncatingDatabreach -f input.txt -p pass.txt -u user.txt -s ":;" 
+```
+
+
 Example : this will be put into two files
 ```bash
 hello@gmail.com:;Pa$$w0rd
@@ -47,7 +60,7 @@ man@hotmail:;123456789
 
 ## How it works
 - Written in vlang
-- In the first lines of the scipt you have to define the input file path, the two output file paths and the separators
+- Define your input file, your two output files and the seperator with the parameters
 - That's all. 
 
 ## To Do
