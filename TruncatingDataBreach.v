@@ -43,6 +43,7 @@ if params.len == 1 {
 		user_file.write_string(temp_line[0] + "\r\n") or {panic(err)}
 	}
 	password_file.close()
+	user_file.close()
 
 	println("All finished, check " + user_file_path + " and " + pass_file_path)
 
