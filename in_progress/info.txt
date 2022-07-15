@@ -1,9 +1,9 @@
-concurrent tasks test
-this is slower than the original script
+1) concurrent tasks test (temp.v)
+   this is slower than the original script
 
-making more threads and cutting the input file makes the heap crash with big files
-code example for more threads (sorry no comments) :
-________________________________________________
+2) making more threads and cutting the input file makes the heap crash with big files
+   code example for more threads (sorry no comments) :
+__________________________________________________________________________________________
 import os
 import term
 
@@ -85,4 +85,4 @@ fn main() {
 		println(term.warn_message("use -h for an example"))
 	}
 }
-________________________________________________
+__________________________________________________________________________________________
