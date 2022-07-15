@@ -66,8 +66,7 @@ man@hotmail:;123456789
 - That's all. 
 
 ## To Do
-- Add comments to code
-- delete file content if rerun
+- Multi-threading the file write (functional but slower than original)
 
 ## Author
 - [@lurto](https://www.github.com/lurto)
