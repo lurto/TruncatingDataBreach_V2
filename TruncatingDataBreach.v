@@ -38,6 +38,10 @@ if params.len == 1 { //no passed parameters
 	user_file_path := params[params.index('-u') + 1]
 	separator := params[params.index('-s') + 1]
 
+	//delete output files
+	os.rm(user_file_path) or {}
+	os.rm(pass_file_path) or {}
+
 	//read lines of the input file
 	lines := os.read_lines(input_file_path) or {panic(err)}
 	//file descriptor opened for writting
