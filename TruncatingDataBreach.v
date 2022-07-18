@@ -68,7 +68,7 @@ if params.len == 1 { //no passed parameters
 
 }else{ //if a parameter is missing
 	//warn message
-	println(term.warn_message("a paramter is missing, you need -f, -p, -u and -s"))
+	println(term.warn_message("a parameter is missing, you need -f, -p, -u and -s"))
 	println(term.warn_message("use -h for an example"))
 }
 
